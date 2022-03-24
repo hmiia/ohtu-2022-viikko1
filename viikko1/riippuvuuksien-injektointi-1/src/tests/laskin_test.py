@@ -1,11 +1,11 @@
-# import unittest
-# from laskin import Laskin
+import unittest
+from laskin import Laskin
 
 
-# class StubIO:
-#     def __init__(self, inputs):
-#         self.inputs = inputs
-#         self.outputs = []
+class StubIO:
+    def __init__(self, inputs):
+        self.inputs = inputs
+        self.outputs = []
 
 #     def lue(self, teksti):
 #         return self.inputs.pop(0)

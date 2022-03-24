@@ -27,5 +27,4 @@ jobs:
       - name: Coverage report to Codecov
         uses: codecov/codecov-action@v2
       - name: Analysing the code with pylint
-        run: |
-          find . -name '*.py' -exec pylint {} \;
+        run: find . -name '*.py' -exec pylint {} \;
